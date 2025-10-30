@@ -1,0 +1,2036 @@
+{
+  "week0": [
+    {
+      "question": "Which of the following allows us to identify objects and extract information?",
+      "options": [
+        "RFID",
+        "Sensors",
+        "Actuators",
+        "IoT Nodes"
+      ],
+      "correctAnswer": "RFID",
+      "solution": "RFID Technology allows us to automatically identify and track tags that are attached to the objects. It extracts information from the tags through electromagnetic fields. See lecture 1 @ 12:57"
+    },
+    {
+      "question": "How many layers does Zigbee consist of?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": "4",
+      "solution": "Zigbee consists of 4 layers: Physical, Medium Access Control, Network, and Application. See lecture 48 @ 16:11"
+    },
+    {
+      "question": "Which of the following is not a component of cloud computing?",
+      "options": [
+        "Clients",
+        "Local Servers",
+        "Services",
+        "Applications"
+      ],
+      "correctAnswer": "Local Servers",
+      "solution": "Cloud computing components include clients, services, applications, platform, storage, and infrastructure. See lecture 37 @ 23:29"
+    },
+    {
+      "question": "Which of the following is a distance measuring sensor module?",
+      "options": [
+        "DHT22",
+        "HC-SR04",
+        "TSL2591",
+        "HC-SR505"
+      ],
+      "correctAnswer": "HC-SR04",
+      "solution": "HC-SR04 is the distance measuring module ultrasonic sensor, which measures the distance between 2cm~450cm. See lecture 3 @ 5:00"
+    },
+    {
+      "question": "Which of the following is a component in a typical sensor network?",
+      "options": [
+        "Sink",
+        "Gateway",
+        "Router",
+        "All of these"
+      ],
+      "correctAnswer": "All of these",
+      "solution": "A typical sensor network comprises of sensor nodes, routers, gateway, and sink."
+    },
+    {
+      "question": "Which of the following sensors are responsible for measuring orientation and angular velocity?",
+      "options": [
+        "Accelerometer",
+        "GPS",
+        "Temperature",
+        "None of these"
+      ],
+      "correctAnswer": "None of these",
+      "solution": "A gyroscope is responsible for measuring orientation and angular velocity. See lecture 59 @ 15:41"
+    },
+    {
+      "question": "\"ISA 100.11A\" is a wireless networking technology standard. ISA stands for",
+      "options": [
+        "International Society of Automation",
+        "International Society of Advancement",
+        "Industrial Society of Automation",
+        "Industrial Society of Advancement"
+      ],
+      "correctAnswer": "International Society of Automation",
+      "solution": "ISA100.11a is a wireless networking technology standard developed by the International Society of Automation (ISA). See lecture 13@ 15:55"
+    },
+    {
+      "question": "Which of the following is not a difference between traditional data center and cloud computing?",
+      "options": [
+        "Scalability",
+        "Flexibility",
+        "Elasticity",
+        "Storage"
+      ],
+      "correctAnswer": "Storage",
+      "solution": "Major differences between traditional data center and cloud computing include scalability, flexibility, elasticity, automation, running costs, and security. See lecture 39 @ 11:02"
+    },
+    {
+      "question": "Smart grid is also known as the energy internet.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "solution": "Smart grid is also known as the energy internet. See lecture 51 @ 7:51"
+    },
+    {
+      "question": "Can a point of node failure result in the partition of the network in the stationary sensor network?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correctAnswer": "Yes",
+      "solution": "If there is a failure in the stationary sensor network then it is likely that the point of failure can partition the network into two or more fragments. See lecture 18 @ 01:10"
+    }
+  ],
+  "week1": [
+    {
+      "question": "What is the full form of IoT?",
+      "options": [
+        "Internet of Tasks",
+        "Internet of Things",
+        "Internet of Tasks",
+        "None of these"
+      ],
+      "correctAnswer": "Internet of Things",
+      "solution": "The full form of IoT is \"Internet of Things\". See lecture 1 (Introduction to IoT - Part I) @ 1:30"
+    },
+    {
+      "question": "Which of the following technologies have unified and has resulted in the evolution of IoT?",
+      "options": [
+        "Low-power embedded systems",
+        "Cloud Computing",
+        "Machine Learning",
+        "All of these"
+      ],
+      "correctAnswer": "All of these",
+      "solution": "Unification of technologies which has resulted in the advancement of IoT are a. Low-power embedded systems b. Cloud Computing c. Big Data d. Machine Learning e. Networking. See lecture 1 (Introduction to IoT - Part I) @ 5:54"
+    },
+    {
+      "question": "Which of the following are the enablers of IoT?",
+      "options": [
+        "RFID",
+        "Nanotechnology",
+        "Sensors",
+        "All of these"
+      ],
+      "correctAnswer": "All of these",
+      "solution": "The enables of IoT are - a. RFID b. Nanotechnology c. Sensors d. Smart Networks. See lecture 2 (Introduction to IoT - Part I) @ 12:50"
+    },
+    {
+      "question": "Which of the following is/are a function of an IoT Gateway?",
+      "options": [
+        "Connects the IoT LAN to a WAN",
+        "Can implement several LAN and WAN",
+        "Forwards packets between LAN and WAN on the IP layer",
+        "All of these"
+      ],
+      "correctAnswer": "All of these",
+      "solution": "The functionalities of an IoT Gateway are a. Connects the IoT LAN to a WAN b. Can implement several LAN and WAN c. Forwards packets between LAN and WAN on the IP layer. See lecture 2 (Introduction to IoT - Part - II) @ 3:09"
+    },
+    {
+      "question": "State whether the following statement is True or False. Statement: \"The same address of an IoT device may be repeated in the domain of another gateway. The gateway has a unique network prefix, which can be used to identify them globally.\"",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "solution": "The same address of an IoT device may be repeated in the domain of another gateway. The gateway has a unique network prefix, which can be used to identify them globally. See lecture 2 (Introduction to IoT - Part II) @ 07:00"
+    },
+    {
+      "question": "In ___ a node/network is connected to multiple networks for improved reliability.",
+      "options": [
+        "Transparent roaming",
+        "Multi-homing",
+        "None of these",
+        "Both (a) and (b)"
+      ],
+      "correctAnswer": "Multi-homing",
+      "solution": "In multi-homing, a node/network is connected to multiple networks for improved reliability. See lecture 2 (Introduction to IoT - Part II) @ 15:22"
+    },
+    {
+      "question": "The IPv4 notation uses ___ number of bits to represent an address.",
+      "options": [
+        "33",
+        "32",
+        "Both (a) and (b)",
+        "None of these"
+      ],
+      "correctAnswer": "32",
+      "solution": "The IPv4 notation uses 32 bits to represent an address. See lecture 2 (Introduction to IoT - Part - II) @ 16:33"
+    },
+    {
+      "question": "The \"Source Address\" field in the IPv6 header is of ___ bits in length.",
+      "options": [
+        "32",
+        "64",
+        "128",
+        "None of these"
+      ],
+      "correctAnswer": "128",
+      "solution": "The IPv6 header uses 128 bits to represent the \"Source Address\". See lecture 2 (Introduction to IoT - Part - II) @ 18:03"
+    },
+    {
+      "question": "A device which detects or measures a physical property and records, indicates, or otherwise responds to it is called ___?",
+      "options": [
+        "A sensor",
+        "An actuator",
+        "A Transducer",
+        "A processor"
+      ],
+      "correctAnswer": "A sensor",
+      "solution": "A device which detects or measures a physical property and records, indicates, or otherwise responds to it is called a sensor. See lecture 3 (Sensing) @ 03:28"
+    },
+    {
+      "question": "A microphone is an example of an",
+      "options": [
+        "Input device and actuator",
+        "Only actuator",
+        "Only Transducer",
+        "Input device and transducer"
+      ],
+      "correctAnswer": "Input device and transducer",
+      "solution": "A microphone is an example of an input device and transducer. See lecture 3 (Sensing) @ 10:31"
+    },
+    {
+      "question": "State whether the following statement is True or False. Statement: A sensor is only sensitive to the measured property for which it has been made (e.g., A temperature sensor senses the ambient temperature of a room.)",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "solution": "A sensor is only sensitive to the measured property (e.g., A temperature sensor senses the ambient temperature of a room.) See lecture 3 (Sensing) @ 12:11"
+    },
+    {
+      "question": "Based on the data type, sensors are classified as",
+      "options": [
+        "Only scalar",
+        "Only vector",
+        "Scalar and Vector/Multimedia",
+        "None of these"
+      ],
+      "correctAnswer": "Scalar and Vector/Multimedia",
+      "solution": "Based on the data type, sensors are classified as Scalar and Vector/Multimedia. See lecture 3 (Sensing) @ 13:05"
+    },
+    {
+      "question": "State whether the following statement is True or False. Statement: The more the resolution of a sensor, the less accurate its precision.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "solution": "The more the resolution of a sensor, the more accurate its precision. See lecture 3 (Sensing) @ 12:46"
+    },
+    {
+      "question": "The sensitivity of a sensor under real conditions may differ from the value specified. This is called",
+      "options": [
+        "Physical error",
+        "Sensitivity error",
+        "Rounding error",
+        "None of these"
+      ],
+      "correctAnswer": "Sensitivity error",
+      "solution": "The sensitivity of a sensor under real conditions may differ from the value specified. See lecture 3 (Sensitivity error) @ 20:56"
+    },
+    {
+      "question": "A sensor node is made up of which of the following?",
+      "options": [
+        "Sensor/Sensing units",
+        "A processing unit",
+        "A power unit",
+        "All of these"
+      ],
+      "correctAnswer": "All of these",
+      "solution": "A sensor node is made up of a combination of sensor/sensors, a processor unit, a radio unit, and a power unit. See Page number 101, Chapter 5, Book Introduction to IoT..."
+    }
+  ],
+  "week2": [
+    {
+      "question": "The full form of MQTT is",
+      "options": [
+        "Message Query Telemetry Transport",
+        "Message Queue Telemetry Transport",
+        "Message Queue Telemedicine Transport",
+        "None of these"
+      ],
+      "correctAnswer": "Message Queue Telemetry Transport",
+      "solution": "The full form of MQTT is Message Queue Telemetry Transport. See lecture 6 (Basics of IoT Networking - Part II) @ 01:51"
+    },
+    {
+      "question": "In MQTT, a ___ controls the publish-subscribe messaging pattern.",
+      "options": [
+        "Message Broker",
+        "Publishers",
+        "Subscribers",
+        "All of these"
+      ],
+      "correctAnswer": "Message Broker",
+      "solution": "In MQTT, a message broker controls the publish-subscribe messaging pattern. See lecture 6 (Basics of IoT Networking - Part II) @ 03:33"
+    },
+    {
+      "question": "Which of the following is NOT a Data Protocol in IoT?",
+      "options": [
+        "MQTT",
+        "CoAP",
+        "Websocket",
+        "None of these"
+      ],
+      "correctAnswer": "None of these",
+      "solution": "The data protocols in IoT are - a) MQTT b) COAP c) AMQP d) Websocket. See lecture 6 (Basics of IoT Networking - Part II) @ 01:16"
+    },
+    {
+      "question": "In MQTT for IoT, the Publishers are",
+      "options": [
+        "Lightweight sensors",
+        "Actuators",
+        "Processing units",
+        "None of these"
+      ],
+      "correctAnswer": "Lightweight sensors",
+      "solution": "In MQTT, the Publishers are lightweight sensors. See lecture 6 (Basics of IoT Networking - Part II) @ 04:49"
+    },
+    {
+      "question": "Which of the following is NOT a method in MQTT?",
+      "options": [
+        "Break",
+        "Connect",
+        "Disconnect",
+        "None of these"
+      ],
+      "correctAnswer": "Break",
+      "solution": "Following are the methods in MQTT - a. Connect b. Disconnect c. Subscribe d. Unsubscribe e. Publish. See lecture 6 (Basics of IoT Networking - Part II) @ 06:18"
+    },
+    {
+      "question": "Which of the following protocols in IoT have been designed for Machine to Machine (M2M) applications such as smart energy and building automation?",
+      "options": [
+        "MQTT",
+        "CoAP",
+        "Websocket",
+        "All of these"
+      ],
+      "correctAnswer": "CoAP",
+      "solution": "CoAP has been designed for Machine to Machine (M2M) applications such as smart energy and building automation. See lecture 7 (Basics of IoT Networking - Part III) @ 00:41"
+    },
+    {
+      "question": "Similar to HTTP, CoAP utilizes which of the following for operation?",
+      "options": [
+        "GET",
+        "PUT",
+        "PUSH",
+        "All of these"
+      ],
+      "correctAnswer": "All of these",
+      "solution": "Similar to HTTP, COAP utilizes GET, PUT, PUSH, DELETE message requests to retrieve, create, update, and delete, respectively. See lecture 7 (Basics of IoT Networking - Part III) @ 08:24"
+    },
+    {
+      "question": "What is the full form of XMPP in IoT?",
+      "options": [
+        "Extensible Markup Page Processing",
+        "Extensible Messaging and Presence Protocol",
+        "Both (a) and (b)",
+        "Neither (a) nor (b)"
+      ],
+      "correctAnswer": "Extensible Messaging and Presence Protocol",
+      "solution": "XMPP stands for Extensible Messaging and Presence Protocol. See lecture 7 (Basics of IoT Networking - Part III) @ 11:58"
+    },
+    {
+      "question": "State whether the following statement if True or False. Statement: XMPP is an open standard protocol.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "solution": "XMPP is an open standard protocol. See lecture 7 (Basics of IoT Networking - Part III) @ 11:58"
+    },
+    {
+      "question": "What is the full form AMQP in context of IoT protocol?",
+      "options": [
+        "Another Message Queuing Protocol",
+        "Anchored Message Queuing Protocol",
+        "Advanced Message Queuing Protocol",
+        "None of these"
+      ],
+      "correctAnswer": "Advanced Message Queuing Protocol",
+      "solution": "AMQP stands for Advanced Message Queuing Protocol. See lecture 8 (Basics of IoT Networking - Part IV) @ 0:41"
+    },
+    {
+      "question": "What is the basic unit of data in the AMQP protocol?",
+      "options": [
+        "Chunk",
+        "Byte",
+        "Frame",
+        "None of these"
+      ],
+      "correctAnswer": "Frame",
+      "solution": "In AMQP, the basic unit of data is called a frame. See lecture 8 (Basics of IoT Networking - Part IV) @ 0:41"
+    },
+    {
+      "question": "Which of the following is/are exchange types in AMQP?",
+      "options": [
+        "Direct",
+        "Fan-out",
+        "Topic",
+        "All of these"
+      ],
+      "correctAnswer": "All of these",
+      "solution": "The AMQP exchange types are a) Direct b) Fan-out c) Topic d) Header. See lecture 8 (Basics of IoT Networking - Part IV) @ 08:56"
+    },
+    {
+      "question": "IoT networks can be classified in which of the following type/types?",
+      "options": [
+        "Non-Beacon Enabled",
+        "Beacon Enabled",
+        "None of these",
+        "Both (a) and (b)"
+      ],
+      "correctAnswer": "Both (a) and (b)",
+      "solution": "The IoT networks can be classified into two types such as i. Non-Beacon Enabled ii. Beacon Enabled. See lecture 9 (Connectivity Technologies - Part-I) @ 10:19"
+    },
+    {
+      "question": "The OSI model has ___ layers.",
+      "options": [
+        "6",
+        "7",
+        "4",
+        "8"
+      ],
+      "correctAnswer": "7",
+      "solution": "The OSI model is a conceptual framework that divides any networked communication system into seven layers. See Page number - 10, Chapter 1, Book - Introduction to IoT..."
+    },
+    {
+      "question": "The \"Destination Address\" in the IPv4 packet represents which of the following?",
+      "options": [
+        "The destination node address of the packet",
+        "The intermediate hop in the network",
+        "Both (a) and (b)",
+        "None of these"
+      ],
+      "correctAnswer": "The destination node address of the packet",
+      "solution": "The \"Destination Address\" in the IPv4 packet represents the address of the destination node in the network. See Page number 18, Chapter 1, Book - Introduction to IoT..."
+    }
+  ],
+  "week3": [
+    {
+      "question": "State whether the following statement is true or false. Statement: There is no network layer in Wired HART",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "solution": "There is no network layer in Wired HART. See lecture 11 (Connectivity Technologies-III) @ 05:22"
+    },
+    {
+      "question": "HART operates only in ___ GHz ISM band.",
+      "options": [
+        "2.4",
+        "4.8",
+        "4.9",
+        "4.4"
+      ],
+      "correctAnswer": "2.4",
+      "solution": "HART operates only in 2.4 GHz ISM band. See lecture 11 (Connectivity Technologies-III) @ 05:43"
+    },
+    {
+      "question": "Super-frames in HART consist of grouped ___ wide timeslots.",
+      "options": [
+        "10ms",
+        "20ms",
+        "55ms",
+        "None of these"
+      ],
+      "correctAnswer": "10ms",
+      "solution": "Super-frames in HART consist of grouped 10ms wide timeslots. See lecture 11 (Connectivity Technologies-III) @ 07:05"
+    },
+    {
+      "question": "The process of identifying channels consistently affected by interference and removing them from use is known as",
+      "options": [
+        "Channel hopping",
+        "Channel aggregating",
+        "Frequency aggregating",
+        "Channel blacklisting"
+      ],
+      "correctAnswer": "Channel blacklisting",
+      "solution": "Channel Blacklisting identifies channels consistently affected by interference and removes them from use. See lecture 11 (Connectivity Technologies-III) @ 07:30"
+    },
+    {
+      "question": "State whether the following statement is True or False. Statement: Each node is supervised by the application manager and it guides them on when and where to send packets.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "solution": "The Network manager supervises each node in the network and guides them on when and where to send packets. See lecture 11 (Connectivity Technologies-III) @ 12:14"
+    },
+    {
+      "question": "FeliCa is commonly found in which country?",
+      "options": [
+        "Japan",
+        "India",
+        "USA",
+        "None of these"
+      ],
+      "correctAnswer": "Japan",
+      "solution": "FeliCa is commonly found in Japan. See lecture 11 (Connectivity Technologies-III) @ 17:52"
+    },
+    {
+      "question": "State whether the following state is true or false. Statement: NFC tags found in supermarket products are examples of passive NFC.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "solution": "Passive NFC tags found in supermarket products are examples of passive NFC. See lecture 11 (Connectivity Technologies-III) @ 18:47"
+    },
+    {
+      "question": "Active NFC devices are able to ___?",
+      "options": [
+        "transmit information",
+        "collect information",
+        "Both (a) and (b)",
+        "None of these"
+      ],
+      "correctAnswer": "Both (a) and (b)",
+      "solution": "Active NFC devices are able to collect as well as transmit information. See lecture 11 (Connectivity Technologies-III) @ 18:52"
+    },
+    {
+      "question": "A ___ in NFC emits a small electric current which creates a magnetic field that in turn bridges the physical space between the devices.",
+      "options": [
+        "reader",
+        "writer",
+        "destroyer",
+        "None of these"
+      ],
+      "correctAnswer": "reader",
+      "solution": "A reader in NFC emits a small electric current which creates a magnetic field that in turn bridges the physical space between the devices. See lecture 11 (Connectivity Technologies-III) @ 20:31"
+    },
+    {
+      "question": "Bluetooth technology is based on",
+      "options": [
+        "WiFi",
+        "LoRa",
+        "Ad-hoc technology",
+        "None of these"
+      ],
+      "correctAnswer": "Ad-hoc technology",
+      "solution": "Bluetooth technology is based on Ad-hoc technology. See lecture 12 (Connectivity Technologies-IV) @ 02:30"
+    },
+    {
+      "question": "Bluetooth technology operates in the unlicensed industrial, scientific and medical (ISM) band at ___ to ___ GHz.",
+      "options": [
+        "3.2, 5.6",
+        "2.4, 2.485",
+        "5.0, 5.89",
+        "None of these"
+      ],
+      "correctAnswer": "2.4, 2.485",
+      "solution": "Bluetooth technology operates in the unlicensed industrial, scientific and medical (ISM) band at 2.4 to 2.485 GHz. See lecture 12 (Connectivity Technologies-IV) @ 04:39"
+    },
+    {
+      "question": "Z-wave operates at ___ MHz in the US and ___ MHz in Europe.",
+      "options": [
+        "1008, 989",
+        "908.42, 868.42",
+        "767.56, 855.28",
+        "None of these"
+      ],
+      "correctAnswer": "908.42, 868.42",
+      "solution": "Z-wave operates at 908.42 MHz in the US and 868.42 MHz in Europe. See lecture 13 (Connectivity Technologies-V) @ 3:40"
+    },
+    {
+      "question": "State whether the following statement is true or false. Statement: Sensor nodes have limited battery life.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "solution": "Sensors nodes have limited battery life. See lecture 14 (Sensor Networks-I) @ 13:15"
+    },
+    {
+      "question": "State whether the following statement is true or false. Statement: The Link Manager Protocol in Bluetooth manages the establishment, authentication, link configuration.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "solution": "The Link Manager Protocol in Bluetooth manages the establishment, authentication, link configuration. See Page number 157, Chapter 7, Book - Introduction to IoT..."
+    },
+    {
+      "question": "Zigbee commonly uses ___ data rate.",
+      "options": [
+        "250 kbps",
+        "250 Mbps",
+        "260 kbps",
+        "260 Mbps"
+      ],
+      "correctAnswer": "250 kbps",
+      "solution": "Zigbee commonly uses 250 kbps data rate. See Page number-131, Chapter - 7, Book - Introduction to IoT..."
+    }
+  ],
+  "week4": [
+    {
+      "question": "State whether the following statement is true or false. Statement: Coverage in WSN is defined as the area-of-interest that is covered satisfactorily.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "solution": "Coverage in WSN is defined as the area-of-interest that is covered satisfactorily. See lecture 17 (Sensor Networks-IV) @ 01:44"
+    },
+    {
+      "question": "If transmission range >= 2 * sensing range,",
+      "options": [
+        "Coverage implies connectivity",
+        "Coverage implies greater coverage",
+        "Both (a) and (b)",
+        "None of these"
+      ],
+      "correctAnswer": "Coverage implies connectivity",
+      "solution": "If transmission range >= 2* sensing range, coverage implies connectivity. See lecture 17 (Sensor Networks-IV) @ 04:14"
+    },
+    {
+      "question": "Forest fire monitoring in WSN is an example of which type of reporting?",
+      "options": [
+        "Event driven",
+        "On-demand",
+        "Scattered",
+        "None of these"
+      ],
+      "correctAnswer": "Event driven",
+      "solution": "Forest fire monitoring in WSN is an example of event driven reporting. See lecture 17 (Sensor Networks-IV) @ 08:13"
+    },
+    {
+      "question": "State whether the following statement is true or false. Statement: Objective of coverage in WSN is to use minimum number of sensors and maximize network lifetime.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "solution": "The objective of coverage in WSN is to use minimum number of sensors and maximize the network lifetime. See lecture 17 (Sensor Networks-IV) @ 08:47"
+    },
+    {
+      "question": "What is the full form of AUV in the context of mobile wireless sensor networks?",
+      "options": [
+        "Aerial and Underwater Vehicle",
+        "Ambient and Underprivileged Vehicle",
+        "Autonomous Underwater Vehicle",
+        "None of these"
+      ],
+      "correctAnswer": "Autonomous Underwater Vehicle",
+      "solution": "The full form of AUV is Autonomous Underwater Vehicle. See lecture 18 (Sensor Networks-V) @ 07:56"
+    },
+    {
+      "question": "In mobile wireless sensor networks, the sensor nodes are capable of ___ and measuring the condition of their surrounding environments.",
+      "options": [
+        "collaborating with one another",
+        "destroying one another",
+        "Both (a) and (b)",
+        "None of these"
+      ],
+      "correctAnswer": "collaborating with one another",
+      "solution": "In mobile wireless sensor networks, the sensor nodes are capable of collaborating with one another and measuring the condition of their surrounding environments. See lecture 18 (Sensor Networks-V) @ 04:56"
+    },
+    {
+      "question": "State whether the following statement is true or false. Statement: In mobile sensor networks, the sensor nodes come in close proximity of sink and deliver the data.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "solution": "In mobile sensor networks, the sensor nodes come in close proximity of sink and deliver the data. See lecture 18 (Sensor Networks-V) @ 06:19"
+    },
+    {
+      "question": "Which of the following is/are a challenge/challenges in Human-centric Sensing?",
+      "options": [
+        "Energy of devices",
+        "Participant selection",
+        "Both (a) and (b)",
+        "None of these"
+      ],
+      "correctAnswer": "Both (a) and (b)",
+      "solution": "The following are the challenges in human-centric sensing - a. Energy of devices b. Participant selection c. Privacy of users. See lecture 18 (Sensor Networks-V) @ 12:45"
+    },
+    {
+      "question": "Which of the following is/are a feature/features of UAV networks?",
+      "options": [
+        "Mesh or star networks",
+        "Multi-tasking",
+        "Large coverage area",
+        "All of these"
+      ],
+      "correctAnswer": "All of these",
+      "solution": "The following are the features of UAV networks - d. Mesh or star networks e. Multi-tasking f. Large coverage area. See lecture 19 (UAV Networks) @ 02:43"
+    },
+    {
+      "question": "State whether the following statement is true or false. Statement: Frequently change in network topology is a benefit of UAV networks.",
+      "options": [
+        "False",
+        "True"
+      ],
+      "correctAnswer": "False",
+      "solution": "Frequently change in network topology an issue of UAV networks. See lecture 19 (UAV Networks) @ 05:29"
+    },
+    {
+      "question": "Which of the following is NOT a feature of multi-UAV system?",
+      "options": [
+        "Low failures",
+        "High scalability",
+        "Low survivability",
+        "High cost"
+      ],
+      "correctAnswer": "Low survivability",
+      "solution": "Following are some of the features of multi-UAV system - a. Low failures b. High scalability c. High survivability d. High cost. See lecture 19 (UAV Networks) @ 07:53"
+    },
+    {
+      "question": "State whether the following statement is true or false. Statement: M2M communications are free of any human intervention.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "solution": "M2M communications are free of any human intervention. See lecture 20 (Machine to Machine Communication) @ 05:44"
+    },
+    {
+      "question": "Which of the following is NOT an M2M node type?",
+      "options": [
+        "Secure End Node",
+        "High End Node",
+        "Low End Mode",
+        "Mid End Node"
+      ],
+      "correctAnswer": "Secure End Node",
+      "solution": "M2M node types are as follows - a. Low End Node b. Mid End Node c. High End Node. See lecture 20 (Machine to Machine Communication) @ 10:43"
+    },
+    {
+      "question": "What is the full form of M2SP in the context of Machine-to-Machine Communication?",
+      "options": [
+        "M2M Service Platform",
+        "M2M Session Packet",
+        "M2M Secure Packaging",
+        "None of these"
+      ],
+      "correctAnswer": "M2M Service Platform",
+      "solution": "M2SP stands for M2M Service Platform. See lecture 20 (Machine to Machine Communication) @ 16:31"
+    },
+    {
+      "question": "The ___ provides integrated services based on device collected data-sets.",
+      "options": [
+        "M2M Application Platform",
+        "M2M Service Platform",
+        "M2M Hardware Platform",
+        "None of these"
+      ],
+      "correctAnswer": "M2M Application Platform",
+      "solution": "The M2M Application Platform provides integrated services based on device collected data-sets. See lecture 20 (Machine to Machine Communication) @ 18:00"
+    }
+  ],
+  "week5": [
+    {
+      "question": "Which of the following is/are current challenge/challenges in IoT?",
+      "options": [
+        "Large scale of co-operation",
+        "Global heterogeneity",
+        "Unknown IoT device configuration",
+        "All of these"
+      ],
+      "correctAnswer": "All of these",
+      "solution": "Current challenges in IoT are a. Large scale of co-operation b. Global heterogeneity c. Unknown IoT device configuration d. Semantic conflicts. See lecture 21 (Interoperability in Internet of Things) @ 03:41."
+    },
+    {
+      "question": "When two IoT devices wish to communicate, semantic conflict in such a scenario in IoT interoperability refers to",
+      "options": [
+        "Two devices built by the same manufacturer",
+        "Two devices having different processing and business logic",
+        "Two devices sensing the same physical parameter",
+        "Two devices having different deployment location"
+      ],
+      "correctAnswer": "Two devices having different processing and business logic",
+      "solution": "Semantic conflict refers to when different IoT devices have different processing and business execution logic. Refer Lecture 21@5:32"
+    },
+    {
+      "question": "Which of the following issues needs to be addressed while solving user interoperability?",
+      "options": [
+        "Device characterization and identification",
+        "Syntactic interoperability",
+        "Both (a) and (b)",
+        "None of these"
+      ],
+      "correctAnswer": "Both (a) and (b)",
+      "solution": "All of the options given should be addressed while solving user interoperability issues. Refer Lecture 21@15:16."
+    },
+    {
+      "question": "State whether the following statement is true or false. Statement: UMB core interoperability component is responsible for converting physical devices into virtually abstracted ones.",
+      "options": [
+        "False",
+        "True"
+      ],
+      "correctAnswer": "False",
+      "solution": "UMB-A is responsible for converting physical devices into virtually abstracted ones. (Please refer Lecture 21 @27:16)"
+    },
+    {
+      "question": "What is the full form of UMB in IoT interoperability?",
+      "options": [
+        "Universal Middleware Bridge",
+        "Universal Main Bridge",
+        "Universal Main Bracket",
+        "None of these"
+      ],
+      "correctAnswer": "Universal Middleware Bridge",
+      "solution": "UMB stands for Universal Middleware Bridge. Refer Lecture 21@22:16."
+    },
+    {
+      "question": "Which of the following is NOT a function available in the Servo library for Arduino ?",
+      "options": [
+        "kill()",
+        "destroy()",
+        "burn()",
+        "All of these"
+      ],
+      "correctAnswer": "All of these",
+      "solution": "The following are NOT functions of the Servo library for Arduino a. kill() b. destroy() c. burn(). The Refer Lecture 25@18:08."
+    },
+    {
+      "question": "Arduino UNO Board is open source?",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "solution": "An Arduino UNO board is an open source electronic programmable board. Refer Lecture 22@05:21."
+    },
+    {
+      "question": "Arduino Uno board accepts which type of input/inputs?",
+      "options": [
+        "Analog",
+        "Digital",
+        "Both (a) and (b)",
+        "None of these"
+      ],
+      "correctAnswer": "Both (a) and (b)",
+      "solution": "Arduino UNO board accepts analog and digital signals as input. Refer Lecture 22@05:21"
+    },
+    {
+      "question": "Arduino boards are based on which of the following microcontroller/microcontrollers.",
+      "options": [
+        "ATMEGA328",
+        "ATMEGA32u4",
+        "Both (a) and (b)",
+        "None of these"
+      ],
+      "correctAnswer": "Both (a) and (b)",
+      "solution": "Arduino board are based on the following microcontrollers - a. ATMEGA328 b. ATMEGA32u4 c. ATMEGA2560 d. AT91SAM3X8E. Refer Lecture 22@06:20"
+    },
+    {
+      "question": "What is the clock speed of the Arduino Uno board?",
+      "options": [
+        "16MHz",
+        "17MHz",
+        "8MHz",
+        "None of these"
+      ],
+      "correctAnswer": "16MHz",
+      "solution": "The clock speed of Arduino Uno board is 16MHz. Refer Lecture 22 @ 07:13."
+    },
+    {
+      "question": "What must be inserted in the place of ?? within the second pinMode() function in void setup()? ... pinMode(g,?? ); ...",
+      "options": [
+        "INPUT",
+        "OUTPUT",
+        "None of these",
+        "Anyone of these is okay"
+      ],
+      "correctAnswer": "OUTPUT",
+      "solution": "Since pin 'g' is writing digital values, it is required to set in OUTPUT mode. Refer Lecture 22-23."
+    },
+    {
+      "question": "The \"Verify\" option in the Arduino IDE checks the code for",
+      "options": [
+        "Compilation errors",
+        "Improper hardware connection",
+        "Both (a) and (b)",
+        "None of these"
+      ],
+      "correctAnswer": "Compilation errors",
+      "solution": "The \"Verify\" option in the Arduino IDE checks the code for compilation errors. Refer Lecture 24."
+    },
+    {
+      "question": "How many pins does the DHT Digital Humidity and Temperature sensor have?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "None of these"
+      ],
+      "correctAnswer": "4",
+      "solution": "DHT Digital Humidity and Temperature sensor has 4 pins. See lecture 24 @ 03:23"
+    },
+    {
+      "question": "What is the function of the delay() function in an Arduino program?",
+      "options": [
+        "Initializes a sensor",
+        "Introduces a delay for the specified time",
+        "Stores the sensor value",
+        "None of the above"
+      ],
+      "correctAnswer": "Introduces a delay for the specified time",
+      "solution": "The delay() function introduces a delay in the operation of the microcontroller for the specified duration. See lecture 24 @13:51"
+    },
+    {
+      "question": "What does the following code snippet do? Servo myservo;",
+      "options": [
+        "Creates a variable to store the sensor value",
+        "Instructs the sensor to sense data",
+        "Creates an instance of servo to use it in the Arduino sketch",
+        "None of these"
+      ],
+      "correctAnswer": "Creates an instance of servo to use it in the Arduino sketch",
+      "solution": "The code snipped \"Servo myservo;\" creates an instance of servo to use in the Arduino sketch. Refer Lecture 25 @5:32"
+    }
+  ],
+  "week6": [
+    {
+      "question": "Python can only be used to build small applications.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "solution": "With open-source nature, python forms a strong backbone to build large applications. (Please refer to lecture INTRODUCTION TO PYTHON PROGRAMMING- I @ 3:46)"
+    },
+    {
+      "question": "Which of the following is NOT a Python IDE?",
+      "options": [
+        "Spyder",
+        "PyCharm",
+        "Both (a) and (b)",
+        "None of these"
+      ],
+      "correctAnswer": "None of these",
+      "solution": "Spyder and PyCharm are examples of Python IDE. (Please refer to lecture INTRODUCTION TO PYTHON PROGRAMMING- I @ 05:12)"
+    },
+    {
+      "question": "State whether the following statement is true or false. Statement: To indicate different blocks of code, python follows rigid indention.",
+      "options": [
+        "False",
+        "True"
+      ],
+      "correctAnswer": "True",
+      "solution": "To indicate different blocks of code, python follows rigid indention (Please refer to lecture INTRODUCTION TO PYTHON PROGRAMMING- I @ 07:25)."
+    },
+    {
+      "question": "Which of the following is not a data-type in Python?",
+      "options": [
+        "List",
+        "Branch",
+        "Tuple",
+        "None of these"
+      ],
+      "correctAnswer": "Branch",
+      "solution": "The data-types in python are a. List b. Tuple c. Dictionary (Please refer to lecture INTRODUCTION TO PYTHON PROGRAMMING- I @ 15:20)."
+    },
+    {
+      "question": "State whether the following statement is true or false. Statement: Python allows us to read and write files.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "solution": "Python allows us to read and write files. (Please refer to lecture INTRODUCTION TO PYTHON PROGRAMMING- II @ 01:17)"
+    },
+    {
+      "question": "Which of the following is NOT a mode to open a file?",
+      "options": [
+        "Read mode",
+        "Write mode",
+        "Append mode",
+        "None of these"
+      ],
+      "correctAnswer": "None of these",
+      "solution": "The four basic modes to open a file in python are a. Read mode b. Write mode c. Append mode d. Both read and write mode (Please refer to lecture INTRODUCTION TO PYTHON PROGRAMMING- II @ 03:00)"
+    },
+    {
+      "question": "State whether the following command to install the PIL library in Linux is correct or not. sudo pip install pillow",
+      "options": [
+        "Correct",
+        "Incorrect"
+      ],
+      "correctAnswer": "Correct",
+      "solution": "The command to install the PIL library is sudo pip install pillow. (Please refer to lecture INTRODUCTION TO PYTHON PROGRAMMING- II @ 17:40)"
+    },
+    {
+      "question": "State whether the following statement is correct for creating a socket 's' in python. s = socket.socket(socket_family, socket_type, protocol=0)",
+      "options": [
+        "Correct",
+        "Incorrect"
+      ],
+      "correctAnswer": "Correct",
+      "solution": "The statement s = socket.socket(socket_family, socket_type, protocol=0) creates a socket in python. (Please refer to lecture INTRODUCTION TO PYTHON PROGRAMMING- II @24:27)."
+    },
+    {
+      "question": "What is a Raspberry Pi?",
+      "options": [
+        "A computer on your palm",
+        "Single board computer",
+        "Low cost",
+        "All of these"
+      ],
+      "correctAnswer": "All of these",
+      "solution": "Raspberry pi is a. A computer on your palm b. Single board computer c. Low cost d. Easy to access (Please refer to lecture INTRODUCTION TO RASPBERRY PI-I @05:00)."
+    },
+    {
+      "question": "Which of the following are required for a basic set up of Raspberry Pi?",
+      "options": [
+        "Monitor",
+        "Keyboard",
+        "Mouse",
+        "All of these"
+      ],
+      "correctAnswer": "All of these",
+      "solution": "The following are required for a basic set up of Raspberry Pi - a. Monitor b. Keyboard c. Mouse. See lecture INTRODUCTION TO RASPBERRY PI-I @ 11:33"
+    },
+    {
+      "question": "Which of the following keyboard key combination writes (i.e saves) the code to the file in nano editor ?",
+      "options": [
+        "Ctrl+O",
+        "Ctrl+X",
+        "Both (a) and (b)",
+        "None of these"
+      ],
+      "correctAnswer": "Ctrl+O",
+      "solution": "Ctrl+O writes the code to the file in nano editor. See lecture INTRODUCTION TO RASPBERRY PI-II @ 10:44"
+    },
+    {
+      "question": "A relay module for Raspberry Pi has how many terminals ?",
+      "options": [
+        "3",
+        "2",
+        "4",
+        "5"
+      ],
+      "correctAnswer": "3",
+      "solution": "A relay module for Raspberry Pi has 3 terminals. See lecture IMPLEMENTATION OF IOT WITH RASPBERRY PI-I @ 06:01."
+    },
+    {
+      "question": "State whether the following statement is true or false. Statement: Adafruit provides a library to work with the DHT22 sensor.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "solution": "Adafruit provides a library to work with the DHT22 sensor. See lecture IMPLEMENTATION OF IOT WITH RASPBERRY PI-I @ 09:19"
+    },
+    {
+      "question": "What is the function of the close() function in python programming while handling files.",
+      "options": [
+        "This function does not exist in python",
+        "It closes the current connection to the file and ensures that the file is free to use for other resources",
+        "None of these",
+        "Both (a) and (b)"
+      ],
+      "correctAnswer": "It closes the current connection to the file and ensures that the file is free to use for other resources",
+      "solution": "The close() function in python ensures that the file is free to use for other resources. (Please refer to lecture INTRODUCTION TO PYTHON PROGRAMMING-II @ 4:44)"
+    },
+    {
+      "question": "Where is the Raspbian image found?",
+      "options": [
+        "It is not available on the Internet",
+        "It is available as image file from the Raspberry Pi official website",
+        "It can only be purchased from offline vendor",
+        "None of these"
+      ],
+      "correctAnswer": "It is available as image file from the Raspberry Pi official website",
+      "solution": "Raspbian image can be downloaded from the Raspberry Pi official website. (Please refer to lecture INTRODUCTION TO RASPBERYY PI-I @ 12:32)"
+    }
+  ],
+  "week7": [
+    {
+      "question": "DHT Sensor refers to Digital Humidity and Temperature Sensor.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "solution": "DHT Sensor refers to Digital Humidity and Temperature Sensor. (Please refer to lecture Implementation of IoT with Raspberry Pi- II @ 3:28)"
+    },
+    {
+      "question": "Fill in the blanks. ___ is a python library used for plotting the data in 2D.",
+      "options": [
+        "List",
+        "Numpy",
+        "Pandas",
+        "Matplotlib"
+      ],
+      "correctAnswer": "Matplotlib",
+      "solution": "Matplotlib is a python library used for plotting the data in 2D. (Please refer to lecture Implementation of IoT with Raspberry Pi- III @ 12:13)"
+    },
+    {
+      "question": "Fill in the blanks. ___ makes a scatter plot of the given points.",
+      "options": [
+        "ion()",
+        "figure()",
+        "Scatter()",
+        "None of these"
+      ],
+      "correctAnswer": "Scatter()",
+      "solution": "Scatter() makes a scatter plot of the given points. (Please refer to lecture Implementation of IoT with Raspberry Pi- III @ 23:25)."
+    },
+    {
+      "question": "What are the two main challenges of SDN?",
+      "options": [
+        "File placement and Node placement",
+        "Rule placement and Controller placement",
+        "All of these",
+        "None of these"
+      ],
+      "correctAnswer": "Rule placement and Controller placement",
+      "solution": "Rule placement and Controller placement are the two main challenges of SDN. (Please refer to lecture Software Defined Networking- Part-I @ 16:49)"
+    },
+    {
+      "question": "In soft-timeout, all the rules are deleted from the switch.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "solution": "In soft-timeout, if no flow is received associated with a rule for a particular time, the rule is deleted. In hard-timeout, all rules are deleted from the switch. (Please refer to lecture Software Defined Networking- Part-I @ 24:57)"
+    },
+    {
+      "question": "Which of the following is a component of SDN?",
+      "options": [
+        "Hardware switches",
+        "Flow-rules",
+        "None of these",
+        "All of these"
+      ],
+      "correctAnswer": "All of these",
+      "solution": "Hardware switches and Flow rules are both the components of SDN. (Please refer to lecture Software Def ined Networking- Part-I @ 15.47)"
+    },
+    {
+      "question": "What is introduced if a controller is down in SDN?",
+      "options": [
+        "Backup controller",
+        "Intro controller",
+        "All of these",
+        "None of these"
+      ],
+      "correctAnswer": "Backup controller",
+      "solution": "Backup controller is introduced if a controller is down in SDN. (Please refer to lecture Software Defined Networking- Part- II @ 8:29)"
+    },
+    {
+      "question": "Southbound API is used to communicate between control layer and application layer.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "solution": "Southbound API is used to communicate between control layer and infrastructure layer. (Please refer to lecture 34 Software Defined Networking- Part-II @1:41)."
+    },
+    {
+      "question": "SDN is OpenFlow.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "solution": "SDN is not OpenFlow. It is a technology/concept. (Please refer to lecture 33 Software Defined Networking- Part-I @25:55)."
+    },
+    {
+      "question": "Which of the following forwards the sensed data based on the ID of the source node?",
+      "options": [
+        "Value-centric data forwarding",
+        "ID-centric data forwarding",
+        "All of these",
+        "None of these"
+      ],
+      "correctAnswer": "ID-centric data forwarding",
+      "solution": "ID-centric data forwarding forwards the sensed data based on the ID of the source node. See lecture 35 @ 9:50"
+    },
+    {
+      "question": "Does integrating SDN in IoT provide intelligent routing decisions?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correctAnswer": "Yes",
+      "solution": "Integrating SDN in IoT provides intelligent routing decisions. See lecture 35 @ 17:25"
+    },
+    {
+      "question": "Are Indigo and LINC Open source?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "correctAnswer": "Yes",
+      "solution": "Indigo and LINC are both open source. See lecture 33@ 26:43."
+    },
+    {
+      "question": "Which of the following is used to communicate among multiple controllers in the control layer?",
+      "options": [
+        "East-Westbound APIS",
+        "Northbound APIs",
+        "All of these",
+        "None of these"
+      ],
+      "correctAnswer": "East-Westbound APIS",
+      "solution": "East-Westbound APIs are used to communicate among multiple controllers in the control layer. See lecture 34 @ 02:39"
+    },
+    {
+      "question": "How many requests can a controller handle through a single thread?",
+      "options": [
+        "200/sec",
+        "50/sec",
+        "None of these",
+        "All of these"
+      ],
+      "correctAnswer": "200/sec",
+      "solution": "A controller can handle 200 requests in a second through a single thread. (Please refer to lecture 34@ 3:47)"
+    },
+    {
+      "question": "Size of the ternary content-addressable memory is not limited at the switches.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "solution": "Size of the ternary content-addressable memory is limited at the switches (Please refer to lecture 33 @ 20:41)"
+    }
+  ],
+  "week8": [
+    {
+      "question": "Which of these is used for efficient base-station coordination for addressing inter-cell interference?",
+      "options": [
+        "Path management",
+        "Routing protocols",
+        "Flow-table paradigm",
+        "Logically centralized control"
+      ],
+      "correctAnswer": "Logically centralized control",
+      "solution": "Logically centralized control is used for efficient base-station coordination for addressing inter-cell interference (Please refer Lecture 36@3:02)"
+    },
+    {
+      "question": "Which of these takes last k-th location instances to predict the next location in Mobi-Flow?",
+      "options": [
+        "Order-K Markov predictor",
+        "Flow-rule placement",
+        "All of these",
+        "None of these"
+      ],
+      "correctAnswer": "Order-K Markov predictor",
+      "solution": "Order-K Markov predictor takes last k-th location instances to predict the next location in Mobi-Flow. (Please refer Lecture 36@15:52)"
+    },
+    {
+      "question": "What are the two components of ODIN?",
+      "options": [
+        "Odin server and agent",
+        "Odin server and client",
+        "Odin agent and master",
+        "None of these"
+      ],
+      "correctAnswer": "Odin agent and master",
+      "solution": "Odin agent and master are the two components of ODIN. (Please refer Lecture 36@10:16)"
+    },
+    {
+      "question": "Which of the following is placed to deal with mice-flows?",
+      "options": [
+        "Flow rules",
+        "Exact rules",
+        "Match rules",
+        "Wild card rules"
+      ],
+      "correctAnswer": "Wild card rules",
+      "solution": "Wild card rules can be placed to deal with mice-flows. (Please refer Lecture 36 @18:23)"
+    },
+    {
+      "question": "Fill in the blank. ___ refers to heterogeneous computing nodes distributed over a wide area to perform very large tasks.",
+      "options": [
+        "Cluster Computing",
+        "Utility Computing",
+        "Grid Computing",
+        "None of these"
+      ],
+      "correctAnswer": "Grid Computing",
+      "solution": "Grid Computing refers to heterogeneous computing nodes distributed over a wide area to perform very large tasks. (Please refer Lecture 37 @6:48)"
+    },
+    {
+      "question": "Which of the following is a property of cloud computing?",
+      "options": [
+        "On-demand network access",
+        "High level generalization of computation",
+        "On-demand services",
+        "All of these"
+      ],
+      "correctAnswer": "All of these",
+      "solution": "On-demand network access, high level generalization of computation and on-demand services are some of the properties of cloud computing. (Please refer Lecture 37@12:43)"
+    },
+    {
+      "question": "Which of the following statements are true about the different types of cloud? Statement I: Inter-cloud is a global cloud of clouds. Statement II: Volunteer cloud is a type of distributed cloud. Statement III: Public cloud has low security.",
+      "options": [
+        "Statements I and II",
+        "Statements I and III",
+        "Statements II and III",
+        "Statement I, II and III"
+      ],
+      "correctAnswer": "Statement I, II and III",
+      "solution": "All the three statements are correct for the cloud. Inter-cloud is a global cloud of clouds. Volunteer cloud is a type of distributed cloud. And also Public cloud has low security. (Please refer Lecture 37@31:11, 32: 43, 32: 25)"
+    },
+    {
+      "question": "Fill in the blank. ___ means independent of device or location.",
+      "options": [
+        "Scalable",
+        "Reliability",
+        "Agile",
+        "Ubiquitous"
+      ],
+      "correctAnswer": "Ubiquitous",
+      "solution": "Ubiquitous means independent of device or location. (Please refer Lecture 37@18:06)"
+    },
+    {
+      "question": "Fill in the blank. ___ represents the on-demand delivery of computing infrastructure in the cloud.",
+      "options": [
+        "Software-as-a-Service",
+        "Storage-as-a-Service",
+        "Network-as-a-Service",
+        "Infrastructure-as-a-Service"
+      ],
+      "correctAnswer": "Infrastructure-as-a-Service",
+      "solution": "Infrastructure-as-a-Service represents the on-demand delivery of computing infrastructure in the cloud. (Please refer Lecture 38@4:29)"
+    },
+    {
+      "question": "Fill in the blank. Hybrid cloud is a blend of ___ cloud.",
+      "options": [
+        "Public and private",
+        "SaaS and Paas",
+        "All of these",
+        "None of these"
+      ],
+      "correctAnswer": "Public and private",
+      "solution": "Hybrid cloud is a blend of public and private cloud. (Please refer Lecture 38@9:50)"
+    },
+    {
+      "question": "Software-as-a-Service does not support a fully pay-as-you-go model.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "solution": "Software-as-a-Service supports a fully pay-as-you-go model. (Please refer Lecture 38@13:25)"
+    },
+    {
+      "question": "Which of the following describes the quality of services expected by the customer?",
+      "options": [
+        "Mass production",
+        "Internet evolution",
+        "Automation",
+        "Service Level Agreement"
+      ],
+      "correctAnswer": "Service Level Agreement",
+      "solution": "Service Level Agreement describes the quality of services expected by the customer (Please refer Lecture 39@5:23)"
+    },
+    {
+      "question": "Which of the following are the accesses enabled by the access control layers in the cloud?",
+      "options": [
+        "Service access",
+        "Server access",
+        "Database access",
+        "All of these"
+      ],
+      "correctAnswer": "All of these",
+      "solution": "Service access, Server access and Database access are the accesses enabled by the access control layers in the cloud (Please refer Lecture 39@24:31)"
+    },
+    {
+      "question": "Reputation refers to the belief of an entity's standing by the community.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "solution": "Reputation refers to the belief of an entity's standing by the community. (Please refer Lecture 39@25:15)"
+    },
+    {
+      "question": "Which of the following is true about GreenCloud?",
+      "options": [
+        "GreenCloud monitors the energy consumption of servers, switches, etc.",
+        "GreenCloud was developed as an extension of NS2.",
+        "All of these",
+        "None of these"
+      ],
+      "correctAnswer": "All of these",
+      "solution": "GreenCloud monitors the energy consumption of servers, switches, etc. It was developed as an extension of NS2. (Please refer Lecture 40@16:25)"
+    }
+  ],
+  "week9": [
+    {
+      "question": "Which of the following is not a component of OpenStack?",
+      "options": [
+        "Suse",
+        "Nova",
+        "Swift",
+        "All of these"
+      ],
+      "correctAnswer": "Suse",
+      "solution": "Nova and Swift are two of the many components of OpenStack (Please refer Lecture 41@3:18)"
+    },
+    {
+      "question": "Where is the sensed data sent for further processing in WSNs?",
+      "options": [
+        "Client node",
+        "Central node",
+        "Collect node",
+        "Sink node"
+      ],
+      "correctAnswer": "Sink node",
+      "solution": "The sensed data is sent to sink node for further processing in WSNs (Please refer Lecture 42@4:04)"
+    },
+    {
+      "question": "Select the statement(s) that denote the advantages of cloud computing. Statement I: Elasticity Statement II: Pay-per-use Statement III: Self Service",
+      "options": [
+        "Statement I",
+        "Statement II",
+        "Statements I, II, and III",
+        "None of these"
+      ],
+      "correctAnswer": "Statements I, II, and III",
+      "solution": "The advantages of cloud computing are Elasticity, pay-per-use and self service (Please refer Lecture 42@5:58)"
+    },
+    {
+      "question": "Which of the following is a limitation of WSN?",
+      "options": [
+        "Price",
+        "Post deployment maintenance",
+        "Battery lifetime",
+        "All of these"
+      ],
+      "correctAnswer": "All of these",
+      "solution": "Price, post deployment maintenance and battery lifetime are the main limitations of WSN. (Please refer Lecture 42@11:01)"
+    },
+    {
+      "question": "The managerial role is played by ___ in sensor-cloud architecture.",
+      "options": [
+        "End-users",
+        "Sensor-Cloud Service Provider",
+        "None of these",
+        "All of these"
+      ],
+      "correctAnswer": "Sensor-Cloud Service Provider",
+      "solution": "Sensor-Cloud Service Provider plays the managerial role in sensor-cloud architecture. (Please refer Lecture 42@14:29)"
+    },
+    {
+      "question": "The optimal composition of ___ is a management issue in sensor-cloud.",
+      "options": [
+        "Logistics",
+        "Pricing",
+        "Caching",
+        "Virtual sensor nodes"
+      ],
+      "correctAnswer": "Virtual sensor nodes",
+      "solution": "The optimal composition of Virtual sensor nodes is a management issue in sensor-cloud. (Please refer Lecture 43@4:39)"
+    },
+    {
+      "question": "Who coined the term Fog computing?",
+      "options": [
+        "IBM",
+        "CISCO",
+        "All of these",
+        "None of these"
+      ],
+      "correctAnswer": "CISCO",
+      "solution": "CISCO coined the term Fog computing. (Please refer Lecture 44@4:18)"
+    },
+    {
+      "question": "What are the issues related to the current cloud model?",
+      "options": [
+        "Volume",
+        "Latency",
+        "All of these",
+        "None of these"
+      ],
+      "correctAnswer": "All of these",
+      "solution": "Volume, bandwidth and latency are some of the issues related to the current cloud model. (Please refer Lecture 44@10:30)"
+    },
+    {
+      "question": "Sensor data is processed in the cloud before it is sent to the fog.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "solution": "Sensor data is processed in the fog before it is sent to the cloud. (Please refer Lecture 45@6:11)"
+    },
+    {
+      "question": "What is the type of received data according to which Fog nodes work?.",
+      "options": [
+        "Non-time sensitive data",
+        "Very time-sensitive data",
+        "Less time-sensitive data",
+        "All of these"
+      ],
+      "correctAnswer": "All of these",
+      "solution": "Fog nodes work according to the type of data which are very time-sensitive, less time-sensitive and non-time sensitive data. (Please refer Lecture 45@11:39)"
+    },
+    {
+      "question": "Which of the following are the advantages of Fog?",
+      "options": [
+        "Quick decision making",
+        "Nodes can be mobile",
+        "Reduces the risk of latency",
+        "All of these"
+      ],
+      "correctAnswer": "All of these",
+      "solution": "The advantages of Fog includes quick decision making, nodes can be mobile and Fog reduces the risk of latency. (Please refer Lecture 45@20:57)"
+    },
+    {
+      "question": "Which of the following requires the analysis at the nearest node?",
+      "options": [
+        "Non-time sensitive data",
+        "Most time-sensitive data",
+        "Less time-sensitive data",
+        "None of these"
+      ],
+      "correctAnswer": "Most time-sensitive data",
+      "solution": "Most time-sensitive data requires the analysis at the nearest node. (Please refer Lecture 45@15:46)"
+    },
+    {
+      "question": "Fog nodes cannot connect and leave the network when necessary.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "solution": "Fog nodes can connect and leave the network when necessary. (Please refer Lecture 45@25:27)"
+    },
+    {
+      "question": "Which of the following is used by the fog applications to increase the speed of service accessibility?",
+      "options": [
+        "Low power",
+        "Good network connection",
+        "Accelerators",
+        "Analytics"
+      ],
+      "correctAnswer": "Accelerators",
+      "solution": "Accelerators increase the speed of service accessibility. (Please refer to Page 260, Chapter 11, Introduction to IoT...)"
+    },
+    {
+      "question": "Fill in the blank. The concept of ___ enables physical hardware to be shared among multiple entities.",
+      "options": [
+        "Hardware virtualization",
+        "Software virtualization",
+        "Module virtualization",
+        "All of these"
+      ],
+      "correctAnswer": "Hardware virtualization",
+      "solution": "The concept of hardware virtualization enables physical hardware to be shared among multiple entities. (Please refer to Page 262, Chapter 11, Introduction to IoT...)"
+    }
+  ],
+  "week10": [
+    {
+      "question": "Smart homes can be used for",
+      "options": [
+        "Home monitoring",
+        "Conservation of resources like electricity",
+        "Security and safety",
+        "All of these"
+      ],
+      "correctAnswer": "All of these",
+      "solution": "Smart homes can be used for home monitoring, conservation of resources, security and safety. (Please refer Lecture 46@25:02)"
+    },
+    {
+      "question": "Which of the following is an iot challenge in smart cities?",
+      "options": [
+        "Reliability",
+        "Large scale",
+        "Big data",
+        "All of these"
+      ],
+      "correctAnswer": "All of these",
+      "solution": "Reliability, Large scale and Big data are some of the challenges of iot in smart cities. (Please refer Lecture 46@32:57)"
+    },
+    {
+      "question": "Select the statement(s) that are true for smart parking. Statement I: Smart parking reduces traffic congestion Statement II: Smart parking increases urban mobility Statement III: Smart parking reduces fuel consumption",
+      "options": [
+        "Statement I",
+        "Statement II",
+        "Statements I, II, and III",
+        "None of these"
+      ],
+      "correctAnswer": "Statements I, II, and III",
+      "solution": "Smart parking reduces traffic congestion and fuel consumption, and increases urban mobility (Please refer Lecture 47@16:46)"
+    },
+    {
+      "question": "Which of the following is a functional layer in smart parking?",
+      "options": [
+        "Information Collection",
+        "System Deployment",
+        "Service Dissemination",
+        "All of these"
+      ],
+      "correctAnswer": "All of these",
+      "solution": "Information Collection, System Deployment and Service Dissemination are all the functional layers in smart parking. (Please refer Lecture 47@17:24)"
+    },
+    {
+      "question": "The mobile sensing in smart parking collects the information",
+      "options": [
+        "in-place",
+        "along the route",
+        "None of these",
+        "All of these"
+      ],
+      "correctAnswer": "along the route",
+      "solution": "The mobile sensing in smart parking collects the information along the route. (Please refer Lecture 47@19:47)"
+    },
+    {
+      "question": "The network which provides amalgamation of various systems within a home is known as",
+      "options": [
+        "Local Area Network",
+        "Metropolitan Area Network",
+        "Global Area Network",
+        "Home Area Network"
+      ],
+      "correctAnswer": "Home Area Network",
+      "solution": "The network which provides amalgamation of various systems within a home is known as Home Area Network. (Please refer Lecture 48@8:24)"
+    },
+    {
+      "question": "Which of the following is the correct full form of DLNA Standards for HAN?",
+      "options": [
+        "Digital Lifestyle Network Alliance",
+        "Digital Living Network Alliance",
+        "Digital Lifestyle Network Algorithm",
+        "None of these"
+      ],
+      "correctAnswer": "Digital Living Network Alliance",
+      "solution": "DLNA stands for Digital Living Network Alliance standards. (Please refer Lecture 48@13:49)"
+    },
+    {
+      "question": "Which of the following is a part of ZigBee Alliance?",
+      "options": [
+        "Mitsubishi",
+        "Honeywell",
+        "All of these",
+        "None of these"
+      ],
+      "correctAnswer": "All of these",
+      "solution": "The Zigbee Alliance is composed of Mitsubishi, Honeywell, Invensys, Motorola and Philips. (Please refer Lecture 48@15:46)"
+    },
+    {
+      "question": "Network and Application layers are defined by IEEE 802.15.4 in Zigbee.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "solution": "Network and Application layers are defined by Zigbee in Zigbee. (Please refer Lecture 48@16:42)"
+    },
+    {
+      "question": "Which of the following is a feature of Content Centric Networking?",
+      "options": [
+        "Hierarchically named data",
+        "Scalable data dissemination",
+        "In-network caching",
+        "All of these"
+      ],
+      "correctAnswer": "All of these",
+      "solution": "Hierarchically named data, Scalable data dissemination and In-network caching are all the features of CCN. (Please refer Lecture 49@15:17)"
+    },
+    {
+      "question": "Which of the following is a phase of ICV development?",
+      "options": [
+        "Based on 2G",
+        "Based on 4G LTE",
+        "Vehicles connected to cloud",
+        "All of these"
+      ],
+      "correctAnswer": "All of these",
+      "solution": "The phases of ICV development: Phase 1: Based on 2G, Phase 2: Based on 4G LTE, Phase 3: Vehicles connected to cloud (Please refer Lecture 50@12:28)"
+    },
+    {
+      "question": "Which of the following is a property of V2X?",
+      "options": [
+        "Restricted to a single source",
+        "Distributed architecture",
+        "Both of these",
+        "None of these"
+      ],
+      "correctAnswer": "Distributed architecture",
+      "solution": "V2X follows a distributed architecture. (Please refer Lecture 49@12:06)"
+    },
+    {
+      "question": "The vehicles cannot be mobile in the Ad-hoc domain of VANET.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "solution": "The vehicles are mobile in the Ad-hoc domain of VANET.. (Please refer Lecture 50@16:59)"
+    },
+    {
+      "question": "Which of the following is a domain of VANET?",
+      "options": [
+        "In-vehicle",
+        "Ad-hoc",
+        "All of these",
+        "None of these"
+      ],
+      "correctAnswer": "All of these",
+      "solution": "Both of the In-vehicle and Ad-hoc are the two domains of VANETS. (Please refer Lecture 50@14:36)"
+    },
+    {
+      "question": "Fill in the blank. ICV is based on",
+      "options": [
+        "Dedicated Short Range Communication",
+        "Directed Short Range Communication",
+        "Dedicated Small Range Communication",
+        "All of these"
+      ],
+      "correctAnswer": "Dedicated Short Range Communication",
+      "solution": "ICV is based on Dedicated Short Range Communication. (Please refer Lecture 50@7:22)"
+    }
+  ],
+  "week11": [
+    {
+      "question": "What are some of the other names of the smart grids?",
+      "options": [
+        "Electricity with a brain",
+        "Energybar",
+        "Electrolyte",
+        "All of these"
+      ],
+      "correctAnswer": "Electricity with a brain",
+      "solution": "Smart grids are also known as Electricity with a brain, Energy internet, and Electronet. (Please refer Lecture 51@8:33)"
+    },
+    {
+      "question": "Traditional Grid follows which type of flow of energy?",
+      "options": [
+        "Unidirectional",
+        "Bidirectional",
+        "Both a and b",
+        "None of these"
+      ],
+      "correctAnswer": "Unidirectional",
+      "solution": "Traditional grid follows unidirectional flow of energy. (Please refer Lecture 51@5:41)"
+    },
+    {
+      "question": "Which of the following is a benefit associated with smart grids?",
+      "options": [
+        "Efficient transmission of electricity",
+        "Lower electricity rates",
+        "Improved security",
+        "All of these"
+      ],
+      "correctAnswer": "All of these",
+      "solution": "Smart Grids provide efficient transmission of electricity, lower electricity rates and Improved security. (Please refer Lecture 51@11:26)"
+    },
+    {
+      "question": "Which of the following is a way of consumer engagement?",
+      "options": [
+        "Net metering",
+        "Time-of-Use pricing",
+        "Financial incentives",
+        "All of these"
+      ],
+      "correctAnswer": "All of these",
+      "solution": "Net metering, Time-of-Use pricing and Financial incentives are ways of consumer engagements. (Please refer Lecture 51 @32:31)"
+    },
+    {
+      "question": "Fill in the blank. In ___, a home can have power from distributed resources.",
+      "options": [
+        "Peaking",
+        "Islanding",
+        "Neither a nor b",
+        "Both a and b"
+      ],
+      "correctAnswer": "Islanding",
+      "solution": "In islanding, a home can have power from distributed resources. (Please refer Lecture 51 @31:20)"
+    },
+    {
+      "question": "Which of the following aggregates energy consumption of a certain geographical area?",
+      "options": [
+        "Data Aggregator Units",
+        "Meter Data Management System",
+        "Buffer",
+        "None of these"
+      ],
+      "correctAnswer": "Data Aggregator Units",
+      "solution": "Data Aggregator Units aggregates energy consumption of a certain geographical area (Please refer Lecture 52@15:03)"
+    },
+    {
+      "question": "Which of the following statements are true about Dynamic System Attacks? Statement I: Replay attacks compromises sensors and monitors their outputs. Statement II: D-DIA can lead to a system collapse. Statement III: Covert attack is a closed loop version of replay attacks.",
+      "options": [
+        "Statements I and II",
+        "Statements I and III",
+        "Statements II and III",
+        "Statement I, II and III"
+      ],
+      "correctAnswer": "Statement I, II and III",
+      "solution": "Replay attacks compromises sensors and monitors their outputs. D-DIA can lead to a system collapse. Covert attack is a closed loop version of replay attacks. (Please refer Lecture 52@20:03)"
+    },
+    {
+      "question": "Fill in the blank. ___ is a centralized coordinator for smart grid communication.",
+      "options": [
+        "Gateway",
+        "Meter",
+        "AMI",
+        "MDMS"
+      ],
+      "correctAnswer": "MDMS",
+      "solution": "MDMS is a centralized coordinator for smart grid communication. (Please refer Lecture 52@15:32)"
+    },
+    {
+      "question": "Fill in the blank. ___ are available protocols for smart home appliances.",
+      "options": [
+        "C-Bus",
+        "DECT",
+        "EnOcean",
+        "All of these"
+      ],
+      "correctAnswer": "All of these",
+      "solution": "C-Bus, DECT, EnOcean and Universal Powerline Bus are available protocols for smart home appliances. (Please refer Lecture 52@ 12:35)"
+    },
+    {
+      "question": "Fill in the blank. ___ is the time required to transmit the data.",
+      "options": [
+        "Scalability",
+        "Topology",
+        "Throughput",
+        "Latency"
+      ],
+      "correctAnswer": "Latency",
+      "solution": "Latency is the time required to transmit the data. (Please refer Lecture 53@21:20)"
+    },
+    {
+      "question": "IIoT is based on Wrap & Replace approach.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "solution": "IIoT is based on wrap & re-use approach. (Please refer Lecture 53@9:53)"
+    },
+    {
+      "question": "Which of the following happened in the 3rd Revolution?",
+      "options": [
+        "Mass production",
+        "IIoT",
+        "Mechanized production",
+        "None of these"
+      ],
+      "correctAnswer": "None of these",
+      "solution": "Internet evolution and automation happened in the 3rd Revolution. (Please refer Lecture 53@10:06)"
+    },
+    {
+      "question": "Which of the following is used to improve the interoperability of different systems?",
+      "options": [
+        "Standardization",
+        "Optimization",
+        "Monitoring",
+        "None of these"
+      ],
+      "correctAnswer": "Standardization",
+      "solution": "Standardization improves the interoperability of different systems. (Please refer Lecture 54@16:09)"
+    },
+    {
+      "question": "Big data is characterized by 7 Vs.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "solution": "Big data is characterized by 7 Vs. (Please refer Lecture 55@10:36)"
+    },
+    {
+      "question": "What is Hadoop used in?",
+      "options": [
+        "Distributed processing of large datasets",
+        "Small clusters of computers",
+        "Both a and b",
+        "None of these"
+      ],
+      "correctAnswer": "Distributed processing of large datasets",
+      "solution": "Hadoop is used for distributed processing of large datasets across Large clusters of computers (Please refer Lecture 55@23:18)"
+    }
+  ],
+  "week12": [
+    {
+      "question": "The two types of data analysis are",
+      "options": [
+        "Qualitative and Quantitative",
+        "Repetitive and Quantitative",
+        "Neither a nor b",
+        "Both a and b"
+      ],
+      "correctAnswer": "Qualitative and Quantitative",
+      "solution": "Qualitative and Quantitative are the two types of data analysis. (Please refer Lecture 56@2:33)"
+    },
+    {
+      "question": "Which of the following is a principle of Qualitative analysis.",
+      "options": [
+        "Notice things",
+        "Think about things",
+        "Collect things",
+        "All of these"
+      ],
+      "correctAnswer": "All of these",
+      "solution": "The three principles of Qualitative analysis are: Notice things, think about things and collect things. (Please refer Lecture 56@4:12)"
+    },
+    {
+      "question": "Select the statement(s) that is involved with quantitative analysis. Statement I: Data dispersion Statement II: Contingence Statement III: Correlation",
+      "options": [
+        "Statement I",
+        "Statement II",
+        "Statements I, II, and III",
+        "None of these"
+      ],
+      "correctAnswer": "Statements I, II, and III",
+      "solution": "Data dispersion, Contingence and Correlation are involved with quantitative analysis. (Please refer Lecture 56@4:46)"
+    },
+    {
+      "question": "Which of the following is a type of data dispersion?",
+      "options": [
+        "Range",
+        "Average absolute deviation",
+        "Both a and b",
+        "Neither a nor b"
+      ],
+      "correctAnswer": "Both a and b",
+      "solution": "Range and average absolute deviation are the type of data dispersions. (Please refer Lecture 56@13:43)"
+    },
+    {
+      "question": "In ANOVA, if the distribution of each group is normal, it is known as",
+      "options": [
+        "Homogeneity",
+        "Normality",
+        "Neither a nor b",
+        "Both a and b"
+      ],
+      "correctAnswer": "Normality",
+      "solution": "In ANOVA, if the distribution of each group is normal, it is known as normality. (Please refer Lecture 56@11:01)"
+    },
+    {
+      "question": "The expectation of the squared deviation of a random variable from its mean is known as",
+      "options": [
+        "Absolute deviation",
+        "Range",
+        "Standard deviation",
+        "Variance"
+      ],
+      "correctAnswer": "Variance",
+      "solution": "The expectation of the squared deviation of a random variable from its mean is known as Variance. (Please refer Lecture 56@14:04)"
+    },
+    {
+      "question": "What are the two types of statistical models?",
+      "options": [
+        "Regression and dispersion",
+        "Complete and incomplete",
+        "Both a and b",
+        "Neither a nor b"
+      ],
+      "correctAnswer": "Complete and incomplete",
+      "solution": "Complete and incomplete are two types of statistical models (Please refer Lecture 56@8:11)"
+    },
+    {
+      "question": "Which of the following is a type of table that displays the frequency distribution of the variables?",
+      "options": [
+        "Cross tabulation",
+        "Contingency table",
+        "Both a and b",
+        "Neither a nor b"
+      ],
+      "correctAnswer": "Both a and b",
+      "solution": "Contingency table is a type of table that displays the frequency distribution of the variables. It is also known as Cross tabulation and Cross tab. (Please refer Lecture 56@14:29)"
+    },
+    {
+      "question": "Advances in sensor and connectivity have enabled preventive care in IoT Healthcare.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "True",
+      "solution": "Advances in sensor and connectivity have enabled preventive care in IoT Healthcare. (Please refer Lecture 58@4:22)"
+    },
+    {
+      "question": "Which of the following is an application of IoT in Agriculture?.",
+      "options": [
+        "Automated irrigation system",
+        "Automated weeding system",
+        "Water level monitoring",
+        "All of these"
+      ],
+      "correctAnswer": "All of these",
+      "solution": "Automated irrigation system, Automated weeding system and Water level monitoring are all applications of IoT in agriculture. (Please refer Lecture 57@2:05)"
+    },
+    {
+      "question": "Which of the following is a property of in-place data analysis?",
+      "options": [
+        "Power intensive",
+        "On the device",
+        "No need of network",
+        "All of these"
+      ],
+      "correctAnswer": "All of these",
+      "solution": "In-place data analysis is power intensive, can be done on the device and needs no network connection. (Please refer Lecture 59@20:24)"
+    },
+    {
+      "question": "Which of the following is the advantage of activity monitoring?",
+      "options": [
+        "Expensive",
+        "Long term monitoring",
+        "Both a and b",
+        "Neither a nor b"
+      ],
+      "correctAnswer": "Long term monitoring",
+      "solution": "Long term monitoring is one of the advantages of Activity monitoring. (Please refer Lecture 59@16:17)"
+    },
+    {
+      "question": "Deep learning based data analysis cannot be performed on sensor data.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctAnswer": "False",
+      "solution": "Deep learning based data analysis can be done on sensor data, images and videos. (Please refer Lecture 59@19:34)"
+    },
+    {
+      "question": "Which of the following is true for network-based data analysis?",
+      "options": [
+        "Low power",
+        "Good network connection required",
+        "Group-based analytics",
+        "All of these"
+      ],
+      "correctAnswer": "All of these",
+      "solution": "Network-based data analysis uses low power, good network connection and can perform group-based analytics (Please refer Lecture 59@20:10)"
+    },
+    {
+      "question": "Which of the following is an advantage of continuous activity monitoring?",
+      "options": [
+        "Daily observation of behavior",
+        "Long term monitoring",
+        "Neither a nor b",
+        "Both a and b"
+      ],
+      "correctAnswer": "Both a and b",
+      "solution": "Daily observation of behavior and Long term monitoring are two advantages of continuous activity monitoring. (Please refer Lecture 59@16:15)"
+    }
+  ]
+}

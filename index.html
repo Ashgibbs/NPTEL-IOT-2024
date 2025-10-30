@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NPTEL IoT Quiz Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>NPTEL - Introduction to IoT</h1>
+        <h2>Practice Quiz Platform</h2>
+    </header>
+
+    <main>
+        <div id="week-selector">
+            <h3>Select a Week to Start:</h3>
+            </div>
+
+        <div id="quiz-container" class="hidden">
+            
+            <div id="quiz-header">
+                <h2 id="quiz-title"></h2>
+                <div id="quiz-progress">Question <span id="question-number">0</span> / 15</div>
+            </div>
+
+            <div id="question-container">
+                <p id="question-text">Loading question...</p>
+            </div>
+            
+            <div id="options-container">
+                </div>
+            
+            <div id="solution-container" class="hidden">
+                <h3 id="result-text"></h3>
+                <p id="solution-text"></p>
+            </div>
+            
+            <div id="navigation-buttons">
+                <button id="next-button" class="hidden">Next Question</button>
+                <button id="home-button" class="hidden">Back to Weeks</button>
+            </div>
+
+        </div>
+    </main>
+    
+    <script src="app.js"></script>
+</body>
+</html>

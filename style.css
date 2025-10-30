@@ -1,0 +1,182 @@
+/* General Body & Font Styling */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    color: #0056b3;
+    margin: 0;
+}
+header h2 {
+    color: #555;
+    font-weight: 400;
+    margin: 5px 0 0 0;
+}
+
+main {
+    width: 100%;
+    max-width: 700px;
+}
+
+/* Week Selector Styling */
+#week-selector {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#week-selector h3 {
+    font-weight: 500;
+}
+#week-selector div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#week-selector button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    margin: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s;
+}
+#week-selector button:hover {
+    background-color: #0056b3;
+}
+
+/* Quiz Container Styling */
+#quiz-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    padding: 30px;
+}
+
+#quiz-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+#quiz-title {
+    margin: 0;
+    color: #007bff;
+}
+#quiz-progress {
+    font-size: 1em;
+    font-weight: 500;
+    color: #555;
+}
+
+/* Question & Options Styling */
+#question-text {
+    font-size: 1.25em;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+#options-container .option {
+    display: block;
+    width: 100%;
+    box-sizing: border-box; /* Ensures padding doesn't break layout */
+    background-color: #f8f9fa;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 12px;
+    text-align: left;
+    font-size: 1em;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+#options-container .option:hover:not(:disabled) {
+    background-color: #e9ecef;
+    border-color: #007bff;
+}
+#options-container .option:disabled {
+    cursor: not-allowed;
+    opacity: 0.9;
+}
+
+/* Answer State Styling (Correct/Incorrect) */
+.option.correct {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+    font-weight: 600;
+}
+.option.incorrect {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+    font-weight: 600;
+}
+
+/* Solution Box */
+#solution-container {
+    margin-top: 25px;
+    padding: 20px;
+    background-color: #fffbe6;
+    border: 1px solid #ffeeba;
+    border-radius: 5px;
+}
+#result-text {
+    margin-top: 0;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+#solution-container p {
+    margin-bottom: 0;
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+/* Navigation Buttons */
+#navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+#next-button, #home-button {
+    background-color: #28a745;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+#home-button {
+    background-color: #6c757d;
+}
+#next-button:hover { background-color: #218838; }
+#home-button:hover { background-color: #5a6268; }
+
+
+/* Utility class to hide elements */
+.hidden {
+    display: none;
+}
